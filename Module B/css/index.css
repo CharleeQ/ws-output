@@ -1,0 +1,105 @@
+.caption {
+    display: inline-block;
+    text-align: left;
+    color: white;
+    padding: 1vw 2vw 1vw;
+    font-size: 2vw;
+    position: absolute;
+    top: 20vw;
+    left: 5vw;
+    opacity: .87;
+}
+
+.caption h1 {
+    font-size: 3vw;
+    font-family: 'PT Sans Bold', Arial, sans-serif;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.carousel-indicators li {
+    margin-left: 5vw;
+    width: 1vw;
+    height: 1vw;
+    background-color: white;
+    opacity: .5;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    width: 1vw;
+    height: 1vw;
+}
+
+.items p {
+    text-align:center;
+    padding: 7vw;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition: .25s ease;
+    -o-transition: .25s ease;
+    transition: .25s ease;
+}
+
+.items {
+    margin-top: 30px;
+}
+
+.items p:hover {
+    opacity: .7;
+}
+
+.it-1 {
+    background-image: url(../img/home/item1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.it-2 {
+    background-image: url(../img/home/item2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.it-3 {
+    background-image: url(../img/home/item3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.it-4 {
+    background-image: url(../img/home/item4.1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.it-5 {
+    background-image: url(../img/home/item5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.com {
+    text-align: right;
+    margin-top: 30px;
+    font-size: 1.2vw;
+}
+
+.ok {
+    text-align: left;
+}
